@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하이</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            width: 80%;
+            background-color: black;
+            height: 100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        header::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        header h1{
+            width: 20%;
+            float: left;
+        }
+        header h1 a{
+            line-height: 100px;
+            color: aliceblue;
+        }
+        header nav{
+            float: right;
+            width: 60%;
+        }
+        header ul::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        header nav ul{
+            list-style: none;
+            width: 100%;
+        }
+        header nav ul li{
+            width: 25%;
+            float: left;
+        }
+        header nav ul li a{
+            color: aliceblue;
+            line-height: 100px;
+            display: block;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+    <head>
+    </head>
+    <body>
+        <header>
+            <h1><a href="#">메인로고</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#">대메뉴1</a></li>
+                <li><a href="#">대메뉴1</a></li>
+                <li><a href="#">대메뉴1</a></li>
+                <li><a href="#">대메뉴1</a></li>
+            </ul>
+        </nav>
+    </header>
+    </body>
+</html> 
